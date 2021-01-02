@@ -1,4 +1,4 @@
-#!/usr/bin/python3.7
+#!/usr/bin/python3
 
 import asyncio
 
@@ -54,7 +54,7 @@ async def print_twos_alt(should_print, counter):
 
 
 async def program():
-    print('Next coros run 5 times every one, since they share a state betwee them')
+    print('Next coros run 5 times every one, since they share a state between them')
     await asyncio.gather(
         print_ones(context),
         print_twos(context),
